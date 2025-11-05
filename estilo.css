@@ -1,0 +1,91 @@
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+
+.card {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.card__title {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  color: var(--color-text-primary);
+}
+
+.card__text {
+  color: var(--color-text-secondary);
+  margin-bottom: 1rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: var(--color-background);
+  background-color: var(--color-primary);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Fondo y fuente general */
+body {
+  background-color: #121212; /* Fondo oscuro */
+  color: white;              /* Texto blanco */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Títulos */
+h1, h2, h3 {
+  color: #00ffcc; /* Cian claro */
+  margin-top: 20px;
+}
+
+/* Enlaces normales */
+a {
+  color: lightgreen;
+  text-decoration: none;
+}
+
+/* Enlaces al pasar el mouse */
+a:hover {
+  color: black;
+  background-color: yellow;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+/* Navegación simple */
+nav {
+  background-color: #1a1a1a;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+/* Listas */
+ul {
+  margin-left: 20px;
+  line-height: 1.6;
+}
+
+/* Contenedor principal */
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
