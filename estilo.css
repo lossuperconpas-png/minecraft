@@ -72,9 +72,48 @@ nav {
   text-align: center;
 }
 
-nav a {
-  margin: 0 10px;
-  font-weight: bold;
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li:hover {
+    background-color: #555;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    flex-direction: column;
+}
+
+nav ul li:hover > ul {
+    display: flex;
+}
+
+nav ul ul li {
+    width: 200px;
 }
 
 /* Listas */
@@ -88,4 +127,5 @@ main {
   max-width: 800px;
   margin: auto;
   padding: 20px;
+
 }
